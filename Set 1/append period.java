@@ -9,7 +9,6 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
 		 Scanner s=new Scanner(System.in);
         String str=s.nextLine();
         if(str.equals("") || str.equals(" "))
@@ -20,8 +19,9 @@ class Ideone
         
         else
         {
-            System.out.println(str+".");
-        }
+            String ip=(new StringBuilder()).append(str).append(".").toString();
+            System.out.println(ip);
+    }
 	}
 
 	
